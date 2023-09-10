@@ -1,6 +1,22 @@
 # Arduino_4Servos With Sliders_AndRC_Car_Code
 
 Warehouse Robot Project
+Requirements :
+Arduino Uno or More 
+
+HC-05 BLT Module 
+
+H-Bridge L298D
+
+Servo Motor
+
+Mini DC Gearbox Motor
+
+4 Batteries (3.7 volts) for DC Motors
+
+2 Batteries (3.7 volts) for Servo Motors
+
+Jumper Wires
 
 This code is an Arduino sketch that uses the RemoteXY library to create a graphical user interface (GUI) for controlling a robotic arm with the ability to make it slide not giving a constant value 
 
