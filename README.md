@@ -1,16 +1,20 @@
 # Arduino_4Servos With Sliders_AndRC_Car_Code
 
 CIC Project
-This code is an Arduino sketch that uses the RemoteXY library to create a graphical user interface (GUI) for controlling a robotic arm. The GUI allows the user to control the position of the four servo motors in the arm using four sliders. The code also uses a joystick to control the movement of the arm.
+This code is an Arduino sketch that uses the RemoteXY library to create a graphical user interface (GUI) for controlling a robotic arm with the ability to make it slide not giving a constant value 
 
-How to use
-Install the RemoteXY library on your Arduino.
+The GUI allows the user to control the position of the four servo motors in the arm using four sliders. The code also uses a joystick to control the movement of the DC motors.
+
+How to use :
+
+Design the RemoteXY App and install the RemoteXY library on your Arduino.
 Connect the servo motors and the joystick to the Arduino according to the pinout diagram in the code.
-Upload the code to the Arduino.
+Upload the code to the Arduino and don't forget to modify or merge the code pins/ports 
 Open the RemoteXY GUI on your phone or computer.
 Use the sliders to control the position of the servo motors.
-Use the H Bridge to control the movement of the car.
-Code explanation
+Use the Joystick to control the movement of the car.
+
+Code explanation : 
 The code is divided into two parts:
 
 The first part defines the RemoteXY library and the variables and events that are used in the GUI.
@@ -23,9 +27,5 @@ The setup() function initializes the hardware and the RemoteXY library. It also 
 
 The loop() function is the main loop of the program. It calls the RemoteXY_Handler() function to handle any events that have occurred since the last time the function was called. It then reads the values of the sliders and the joystick, and uses those values to control the servo motors.
 
-Troubleshooting
-If you are having trouble getting the code to work, here are a few things to check:
+The RemoteXY.slider_1 = 50; statements initialize the values of the sliders to 50.
 
-Make sure that the servo motors and the DC Motors are connected to the Arduino correctly.
-Make sure that the RemoteXY library is installed correctly.
-Make sure that the RemoteXY GUI is running on your phone or computer.
