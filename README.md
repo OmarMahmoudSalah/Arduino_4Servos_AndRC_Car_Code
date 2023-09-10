@@ -30,3 +30,6 @@ The loop() function is the main loop of the program. It calls the RemoteXY_Handl
 
 The RemoteXY.slider_1 = 50; statements initialize the values of the sliders to 50.
 
+For More Information and Equations :
+https://remotexy.com/en/examples/servo/
+https://remotexy.com/en/examples/car/
