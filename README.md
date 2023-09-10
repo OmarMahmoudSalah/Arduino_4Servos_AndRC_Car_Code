@@ -1,6 +1,7 @@
 # Arduino_4Servos With Sliders_AndRC_Car_Code
 
-CIC Project
+Warehouse Robot Project
+
 This code is an Arduino sketch that uses the RemoteXY library to create a graphical user interface (GUI) for controlling a robotic arm with the ability to make it slide not giving a constant value 
 
 The GUI allows the user to control the position of the four servo motors in the arm using four sliders. The code also uses a joystick to control the movement of the DC motors.
